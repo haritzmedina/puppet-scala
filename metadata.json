@@ -1,0 +1,22 @@
+{
+  "author": "Haritz Medina",
+  "summary": "Scala puppet module.",
+  "types": [
+
+  ],
+  "name": "scala",
+  "dependencies": [
+      {
+          "name": "puppetlabs/stdlib",
+          "version_requirement": ">= 2.0.0"
+      },
+      {
+          "name": "maestrodev/wget"
+      }
+  ],
+  "description": "Module for installing scala from tarball",
+  "version": "0.1.0",
+  "license": "Apache License, Version 2.0",
+  "project_page": "https://github.com/haritzmedina/puppet-scala",
+  "source": "https://github.com/haritzmedina/puppet-scala"
+}

@@ -1,0 +1,5 @@
+#!/bin/sh
+# Set SCALA_HOME
+export SCALA_HOME=<%= scope.lookupvar('scala::config::installPath') %>
+# Set bin to PATH
+export PATH=$PATH:$SCALA_HOME/bin
